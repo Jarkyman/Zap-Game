@@ -292,9 +292,9 @@ const App: React.FC = () => {
                 </div>
               </div>
 
-              {/* Retry button hidden if Daily is finished */}
+              {/* Retry button hidden if Daily is finished OR if win popup is currently showing */}
               <div className="min-w-[70px] flex justify-end">
-                {!isTodayDailyDone && (
+                {!isTodayDailyDone && !showWin && (
                   <button 
                     onClick={handleRetry}
                     className="flex items-center gap-2 px-3 py-2 bg-white dark:bg-[#2A2A4E] rounded-2xl shadow-sm hover:shadow-md active:scale-90 transition-all text-pink-400 border border-transparent dark:border-white/5"
