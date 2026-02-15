@@ -1,0 +1,77 @@
+
+[
+  {
+    "id": "beginner",
+    "name": {
+      "en": "Beginner",
+      "da": "Begynder",
+      "sv": "Nybörjare",
+      "no": "Begynner",
+      "fi": "Aloittelija",
+      "es": "Principiante",
+      "it": "Principiante",
+      "fr": "Débutant",
+      "de": "Anfänger",
+      "pt": "Iniciante",
+      "zh-hans": "入门级",
+      "zh-hant": "入門級",
+      "ja": "ビギナー",
+      "ko": "초보자"
+    },
+    "files": [
+      "data/beginner/3x3.json",
+      "data/beginner/4x4.json",
+      "data/beginner/5x5.json",
+      "data/beginner/6x6.json",
+      "data/beginner/7x7.json"
+    ]
+  },
+  {
+    "id": "intermediate",
+    "name": {
+      "en": "Intermediate",
+      "da": "Øvede",
+      "sv": "Erfaren",
+      "no": "Viderekommen",
+      "fi": "Kokenut",
+      "es": "Intermedio",
+      "it": "Intermedio",
+      "fr": "Intermédiaire",
+      "de": "Fortgeschritten",
+      "pt": "Intermediário",
+      "zh-hans": "中级",
+      "zh-hant": "中級",
+      "ja": "中級者",
+      "ko": "중급자"
+    },
+    "files": [
+      "data/intermediate/8x8.json",
+      "data/intermediate/9x9.json",
+      "data/intermediate/10x10.json"
+    ]
+  },
+  {
+    "id": "expert",
+    "name": {
+      "en": "Expert",
+      "da": "Expert",
+      "sv": "Expert",
+      "no": "Ekspert",
+      "fi": "Expertti",
+      "es": "Experto",
+      "it": "Esperto",
+      "fr": "Expert",
+      "de": "Experte",
+      "pt": "Expert",
+      "zh-hans": "专家级",
+      "zh-hant": "專家級",
+      "ja": "エキスパート",
+      "ko": "전문가"
+    },
+    "files": [
+      "data/expert/11x11.json",
+      "data/expert/12x12.json",
+      "data/expert/13x13.json"
+    ]
+  }
+]
